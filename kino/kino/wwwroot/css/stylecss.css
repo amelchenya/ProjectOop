@@ -1,0 +1,40 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Calistoga|Neuton&display=swap');
+
+body {
+    background-image: url('/img/background.jpg');
+    font-family: "Neuton";
+    font-weight: 300;
+    font-size: 16px;
+    color: #b0b0b0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling:touch;
+    margin-top:70px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Calistoga";
+    font-weight:300;
+    color:cornsilk;
+}
+ p{
+     line-height:28px;
+     margin-bottom: 25px;
+ }
+
+ .centered{
+     text-align:center;
+ }
+
+a {
+    color: #000000;
+    font-size: 25px;
+}
+ a:hover, a:focus{
+     color:goldenrod;
+     text-decoration: none;
+     outline:0;
+ }

@@ -1,0 +1,5 @@
+{ // cоздание базы данных
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Kino;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

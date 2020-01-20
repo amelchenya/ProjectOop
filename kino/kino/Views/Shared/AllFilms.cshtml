@@ -1,0 +1,11 @@
+﻿@model kino.Data.Models.Films
+
+<div class="col-lg-4">
+    <span style="color:gray">
+        <img class="img-thumbnail" src="@Model.img" alt="@Model.name" />
+        <h2>@Model.name</h2>
+        <p>@Model.shortDesk</p>
+        <p>Цена: @Model.price.ToString("c")</p>
+        <p><a class="btn btn-warning" href="#">Подробнее</a></p>
+    </span>
+</div> 
